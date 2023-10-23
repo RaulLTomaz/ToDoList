@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="todolist.js"></script>
+        <link rel="stylesheet" href="todolist.css">
+    </head>
+    <body>
+        <div class="fundo">
+            <div style="display: flex; justify-content: center;">
+                <h1>Lista de Tarefas</h1>
+            </div>
+            <div class="cadastro">
+                <div class="left">
+                    <input class="nomeTarefa" type="text" id="tarefa" placeholder="Tarefa...">
+                </div>
+                <div class="right">
+                    <button onclick="addTarefas()" id="botao" class="nobtm">Adicionar</button>
+                </div>
+            </div>
+            <div>
+                <div class="cartao" hidden="false">
+                    <div class="cardleft">
+                        <label class="label"></label>
+                    </div>
+                    <div class="cardright">
+                        <button class="nobtm confirma"><i class="fa fa-2x fa-check-circle-o verde" aria-hidden="true"></i></button>
+                        <button class="nobtm edita"><i class="fa fa-2x fa-pencil-square-o azul" aria-hidden="true"></i></button>
+                        <button class="nobtm deleta"><i class="fa fa-2x fa-trash vermelho" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+            </div>
+            <div hidden="true" class="editarcartao">
+                <input class="edicao" type="text" placeholder="Editar tarefa">
+                <button class="editado">Concluido</button>
+            </div>
+        </div>
+    </body>
+</html>

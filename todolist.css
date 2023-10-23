@@ -1,0 +1,85 @@
+.fundo{
+    background-color: rgb(199, 199, 199);
+    padding: 50px;
+    width: 100%;
+    height: 100vh;
+}
+.cadastro{
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    width: calc(100% - 100px);
+    height: 30px;
+    margin-bottom: 50px;
+}
+.left{
+    width: calc(100% - 150px);
+    height: 100%;
+}
+.right{
+    width: 150px;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+.nomeTarefa{
+    width: 100%;
+    height: 80%;
+}
+.nobtm{
+    border: none;
+    background-color: transparent;
+
+}
+body{
+    margin: 0px !important;
+}
+.cartao{
+    display: flex;
+    width: calc(100% - 100px);
+    height: 50px;
+    font-size: 26px;
+}
+.cardleft{
+    width: calc(100% - 150px);
+    height: 100%;
+}
+.cardright{
+    width: 150px;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+.verde{
+    color: green;
+}
+.azul{
+    color: blue;
+}
+.vermelho{
+    color: red;
+}
+.confirma{
+    margin-right: 10px;
+}
+.edita{
+    margin-right: 10px;
+}
+.editarcartao{
+    position: relative;
+    width: max-content;
+    height: max-content;
+    background-color: gray;
+    padding: 20px;
+    left: 30%;
+    border: 1px solid black;
+
+}
+.edicao{
+    height: 24px;
+    width: 200px;
+}
+.editado{
+    height: 30px;
+
+}
